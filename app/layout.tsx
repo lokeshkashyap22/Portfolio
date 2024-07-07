@@ -21,16 +21,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-        <meta name="author" content={metadata.author} />
-        <meta name="theme-color" content={metadata.themeColor} />
-        <title>{metadata.title}</title>
-      </head>
-      <body>{children}</body>
+           <body>{children}</body>
     </html>
   );
 }
